@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteRule ^(?:src|bin|database)(?:/|$) - [F,L]
+RewriteRule ^(?:bootstrap\.php|composer\.json|config\.(?:example|local)\.php|README\.md)$ - [F,L,NC]
+RewriteRule ^public/index\.php$ - [L]
+RewriteRule ^ public/index.php [QSA,L]

@@ -1,0 +1,13 @@
+{
+  "name": "qixu/operations-api",
+  "description": "栖序多站运营台 API（Hostinger Agency Hosting 版）",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-sodium": "*"
+  }
+}
